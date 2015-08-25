@@ -1,11 +1,11 @@
-
-public class HelloPrinter
+import javax.swing.JOptionPane;
+public class Hello2
 {
     public static void main( String[] args )
     {
         //display a greeting  in the console window
-        System.out.println( "Hello, World!" );
-        System.out.println( "Sup dawg" );
+        String name=JOptionPane.showInputDialog("What is your name");
+        System.out.println(name);
         /*heloooooooooooooooooeoeeoeoooooo
          * eoeoeooeoeoeoeooooooo
          */
